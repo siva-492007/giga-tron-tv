@@ -3,8 +3,8 @@
 //! [x] redeploy contract
 //! [x] start playing on load
 //! [x] add some style to the input tag and buttons
-//! [] add a header
-//! [] remote styling
+//! [x] add a header
+//! [x] remote styling
 //! [] deploy
 //! [x] add a alert on page load to login into wallet
 //https://coolors.co/272932-4d7ea8-828489-9e90a2-b6c2d9
