@@ -1,0 +1,216 @@
+.gigatv{
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 65px;
+    padding: 0.5rem;
+    background-color: rgb(57, 40, 40);
+    /* background-color: #331f37; */
+}
+
+
+
+header h1 {
+    font-weight: 700;
+    color: #fdfdfe;
+    text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+      0px 0px 20px #b393d3;
+  }
+
+iframe{
+    pointer-events:none;
+}
+
+.mint{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.mint > input{
+    display: flex;
+    justify-content: center;
+    width: 97%;
+    height: 50px;
+    font-size: large;
+    border: 1px solid black;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.modalButtons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: me;
+    margin: 0.5rem;
+}
+
+.modalButtons > button{
+    width: 100px;
+    height: 40px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: large;
+    border-radius: 0.3rem;
+    color: white;
+}
+
+.continue {
+    background-color: #4CAF50;
+}
+
+.cancel {
+    background-color: #f44336;
+}
+
+.continue:hover{
+    background-color: #0f8a13;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.cancel:hover{
+    background-color: rgb(207, 11, 11);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.header{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 5rem;
+    padding: 0.5rem;
+    width: 150px;
+    height: 250px;
+    background-color: #B2B2B2;
+    padding-right: 10px;
+    border-radius: 35px;
+}
+
+.header > h2{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.header > button {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: medium;
+    width: 90%;
+}
+
+main{
+    display: block;
+    width: 100%;
+    /* height: 100%;    */
+    /* scroll-behavior: smooth; */
+}
+
+.channelcontainer{
+    border: 1px solid black;
+    display: flex;
+    align-content: start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    height: 115%;
+    margin: 0.5rem 12.5rem;
+    margin-top: 50px;
+    padding: 0.5rem;
+}
+
+.channelcontainer > iframe{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 30%; 
+    height: 30%;
+    margin: 0.5rem;
+}
+
+.channel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 30%;
+}
+
+.iframecontainer{
+    padding: 0.5rem;
+    margin: 0.5rem 12.5rem;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.iframecontainer > iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* The Modal (background) */
+.modal {
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+  }
+
+  .remote{
+    color: #60435F;
+  }
+  
+  /* Modal Content */
+  .modalcontent {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+  }
+
+  .modalcontent > h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    margin: 1rem;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }

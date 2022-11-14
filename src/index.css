@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid yellow; */
+  outline: none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #828489;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  cursor: pointer;
+}
+
+.pult {
+  display: inline-block;
+  background-color: #eee;
+  width: 150px;
+  margin: 10px auto;
+  font-family: 'console', 'PT Sans';
+  padding: 10px 10px 20px 10px;
+  border-radius: 10px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;  
+  background: rgb(100,100,100) radial-gradient(circle at 50% 0, rgba(255,255,255,.65), rgba(255,255,255,.35));
+  box-shadow:
+  inset rgba(0,0,0,.6) 0 -3px 8px,
+  inset rgba(252,255,255,.7) 0 3px 8px,
+  rgba(0,0,0,.8) 0 3px 8px -3px;
+}
+.title {
+  position: relative;
+  background-image: url(http://www.uplab.ru/schetina-birthday/images/7561547f-9bbe-4c24-b447-d1eed58c2312__uplab_logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  width: 75px;
+  height: 15px;
+}
+.block.title:before,
+.tv-nav:before {
+  content: '';
+  position: absolute;
+  height: 7px;
+  width: 7px;
+  background-color: #B03A2E;
+  border-radius: 100%;
+  box-shadow: 0 0 10px 0px rgba(0,0,0,0.5);
+}
+.block.title:before,
+.obazhure:after {
+  top: 0;
+  left: 20px;
+}
+.obazhure.bright:before
+{
+  background-color: #E74C3C;
+}
+.tv-nav:before {
+  top: 40%;
+  left: -10%;
+}
+.btn {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 0;
+  text-align: center;
+  vertical-align: top;
+  width: 40px;
+  height: 40px;
+  line-height: 30px;
+  margin: 5px;
+  box-shadow: 0 0 10px 0px rgba(0,0,0,0.5);
+}
+.btn:active {
+  box-shadow: inset 0 0 10px 0px rgba(0,0,0,0.5);
+}
+.btn-big-inner:focus,
+.btn:focus {
+  outline: none;
+}
+.block {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+.block-channel {
+  width: 159px;
+}
+
+.pult .btn.text {
+  font-size: 15px;
+  padding: 0;
+}
+.top-navigate{
+  background-color: #1c1c1c;
+  color: #eee;
+  font-size: 35px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.power-off {
+  background-color: #B03A2E;
+  position: relative;
+}
+.power-off:after {
+  content: "\f011";
+  font-family: FontAwesome;
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  position: absolute;
+  font-size: 20px;
+  top: 5px;
+  left: 11.5px;
+}
