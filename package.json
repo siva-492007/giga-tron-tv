@@ -1,7 +1,6 @@
 {
   "name": "gigatv",
   "version": "0.1.0",
-  "homepage": "https://master.d38do90smm9bn5.amplifyapp.com/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
